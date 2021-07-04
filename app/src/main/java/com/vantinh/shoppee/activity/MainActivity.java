@@ -9,7 +9,7 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.vantinh.shoppee.R;
-import com.vantinh.shoppee.fragment.GoiY;
+import com.vantinh.shoppee.fragment.Home;
 import com.vantinh.shoppee.fragment.Notification;
 import com.vantinh.shoppee.fragment.ShopeeFeed;
 import com.vantinh.shoppee.fragment.ShopeeLive;
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         bottomNavigationView.setOnNavigationItemSelectedListener(navListener);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragmentActivity,
-                new GoiY()).commit();
+                new Home()).commit();
         getSupportParentActivityIntent();
     }
 
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
                     switch (item.getItemId()) {
                         case R.id.itemGoiY:
-                            selectedFragment = new GoiY();
+                            selectedFragment = new Home();
                             break;
                         case R.id.itemShopeeFeed:
                             selectedFragment = new ShopeeFeed();
