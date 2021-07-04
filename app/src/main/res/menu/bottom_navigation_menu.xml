@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemGoiY"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/itemShopeeFeed"
+        android:enabled="true"
+        android:icon="@drawable/ic_filter"
+        android:title="Shopee Feed" />
+    <item
+        android:id="@+id/itemShopeeLive"
+        android:enabled="true"
+        android:icon="@drawable/ic_videocam"
+        android:title="Shopee Live" />
+    <item
+        android:id="@+id/itemNotiffication"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Thông báo"/>
+    <item
+
+        android:id="@+id/itemAccount"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_perm"
+        android:title="Tôi" />
+</menu>
